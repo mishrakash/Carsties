@@ -9,5 +9,18 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+
+  mongodb:
+    image: mongo:6
+    container_name: search-mongodb
+    ports:
+      - "27017:27017"
+    command: ["--noauth"]
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_DATABASE: searchdb
+
 volumes:
   postgres_data:
+  mongodata:
