@@ -1,6 +1,7 @@
 services:
   postgres:
     image: postgres:15
+    container_name: auction-postgres
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgrespw
@@ -16,10 +17,13 @@ services:
     ports:
       - "27017:27017"
     command: ["--noauth"]
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: admin123
-      MONGO_INITDB_DATABASE: searchdb
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: rabbitmq
+    ports:
+      - "5672:5672" # messaging
+      - "15672:15672" # management UI
 
 volumes:
   postgres_data:
