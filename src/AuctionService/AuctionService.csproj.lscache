@@ -397,6 +397,7 @@ RequestHelpers/MappingProfiles.cs
  masstransit.abstractions/8.0.16/lib/net6.0/MassTransit.Abstractions.dll
  masstransit.rabbitmq/8.0.16/lib/net6.0/MassTransit.RabbitMqTransport.dll
  masstransit/8.0.16/lib/net6.0/MassTransit.dll
+ microsoft.aspnetcore.authentication.jwtbearer/10.0.6/lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
  microsoft.aspnetcore.openapi/10.0.5/lib/net10.0/Microsoft.AspNetCore.OpenApi.dll
  microsoft.build.framework/18.0.2/ref/net10.0/Microsoft.Build.Framework.dll
  microsoft.codeanalysis.common/5.0.0/lib/net9.0/Microsoft.CodeAnalysis.dll
@@ -414,6 +415,8 @@ RequestHelpers/MappingProfiles.cs
  microsoft.identitymodel.abstractions/8.14.0/lib/net9.0/Microsoft.IdentityModel.Abstractions.dll
  microsoft.identitymodel.jsonwebtokens/8.14.0/lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
  microsoft.identitymodel.logging/8.14.0/lib/net9.0/Microsoft.IdentityModel.Logging.dll
+ microsoft.identitymodel.protocols.openidconnect/8.0.1/lib/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+ microsoft.identitymodel.protocols/8.0.1/lib/net9.0/Microsoft.IdentityModel.Protocols.dll
  microsoft.identitymodel.tokens/8.14.0/lib/net9.0/Microsoft.IdentityModel.Tokens.dll
  microsoft.openapi/2.0.0/lib/net8.0/Microsoft.OpenApi.dll
  microsoft.visualstudio.solutionpersistence/1.0.52/lib/net8.0/Microsoft.VisualStudio.SolutionPersistence.dll
@@ -428,6 +431,7 @@ RequestHelpers/MappingProfiles.cs
  system.composition.hosting/9.0.0/lib/net9.0/System.Composition.Hosting.dll
  system.composition.runtime/9.0.0/lib/net9.0/System.Composition.Runtime.dll
  system.composition.typedparts/9.0.0/lib/net9.0/System.Composition.TypedParts.dll
+ system.identitymodel.tokens.jwt/8.0.1/lib/net9.0/System.IdentityModel.Tokens.Jwt.dll
 
 [analyzerReferences]
 <DOTNET>/packs/Microsoft.AspNetCore.App.Ref/10.0.5/analyzers/dotnet/cs/
